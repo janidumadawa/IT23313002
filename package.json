@@ -1,0 +1,29 @@
+{
+  "name": "it23313002-swift-translator-automation",
+  "version": "1.0.0",
+  "description": "Automated testing framework for Swift Translator (Singlish to Sinhala conversion)",
+  "main": "tests/translator.spec.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "test:all": "playwright test --project=chromium --project=firefox --project=webkit",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report",
+    "install:browsers": "playwright install"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "testing",
+    "singlish",
+    "sinhala",
+    "translator"
+  ],
+  "author": "IT23313002",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  }
+}
