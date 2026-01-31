@@ -44,20 +44,8 @@ A total of **35 test cases** are implemented as required:
 
 ---
 
-## Project Structure
-IT23313002/
-├── tests/
-│ └── translator.spec.js
-├── test-data.json
-├── playwright.config.js
-├── package.json
-└── README.md
-
-
----
-
 ## How to Run the Project
-
+---
 ### Install Dependencies
 ```bash
 npm install
@@ -73,11 +61,9 @@ View Test Report
 npx playwright show-report
 
 ```
-
+---
 
 Submission Information
 
 Student ID: IT23313002
-Module: IT3040 – IT Project Management
-Repository Visibility: Public
-Last Updated: January 2026
+Module: IT3040
