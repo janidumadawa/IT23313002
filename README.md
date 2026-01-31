@@ -72,6 +72,8 @@ npx playwright test --headed
 View Test Report
 npx playwright show-report
 
+```
+
 
 Submission Information
 
